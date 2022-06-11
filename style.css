@@ -20,6 +20,7 @@ html * {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 ul {
@@ -67,4 +68,41 @@ a,
     color: white;
     padding: 8px 30px;
     border-radius: 8px;
+}
+
+.section-2 {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.image {
+    background-color: white;
+    height: 150px;
+    border: 2px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: rgb(41, 41, 41);
+    font-size: 14px;    
 }
